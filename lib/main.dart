@@ -83,8 +83,9 @@ class _JankenPageState extends State<JankenPage> {
             SizedBox(height: 64),
             Text(
               'computer',
-              style: TextStyle(fontWeight: FontWeight.bold), 
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
+            SizedBox(height: 10),
             Text(
               computerHand,
               style: TextStyle(fontSize: 32),
@@ -93,6 +94,10 @@ class _JankenPageState extends State<JankenPage> {
             Text(
               myHand,
               style: TextStyle(fontSize: 32),
+            ),
+            Text(
+              'me',
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 32),
             Row(
